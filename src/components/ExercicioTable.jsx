@@ -59,8 +59,8 @@ export default function ExercicioTable() {
   };
 
   return (
-    <div className="p-6 max-w-5xl mx-auto">
-      <h1 className="text-2xl font-bold mb-4">Cadastro de Exercícios</h1>
+    <div className="p-6 max-w-5xl mx-auto text-white">
+      <h1 className="text-5xl font-bold mb-4">Cadastro de Exercícios</h1>
 
       <form onSubmit={adicionarExercicio} className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
         <input
@@ -114,8 +114,8 @@ export default function ExercicioTable() {
       </form>
 
       <div className="overflow-x-auto shadow rounded-2xl">
-        <table className="min-w-full divide-y divide-gray-200 bg-white rounded-2xl">
-          <thead className="bg-gray-100">
+        <table className="min-w-full divide-y divide-gray-200 rounded-5xl">
+          <thead className="bg-gray-700 text-white">
             <tr>
               <th className="px-4 py-2 text-left">Nome</th>
               <th className="px-4 py-2 text-left">Grupo</th>
