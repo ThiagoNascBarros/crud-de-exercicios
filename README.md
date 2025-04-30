@@ -14,16 +14,13 @@ O projeto é dividido em componentes para melhor organização e reutilização 
 
 ```
 src
-├── App.jsx
 ├── components
-│   ├── AddExercise.jsx
-│   ├── ExerciseList.jsx
-│   ├── ExerciseItem.jsx
-│   └── EditExercise.jsx
-├── context
-│   └── ExerciseContext.jsx
-└── styles
-    └── index.css
+│   ├── ExercicioTable.jsx
+├── App.jsx
+├── main.jsx
+├── App.css
+├── styles.css
+
 ```
 
 ## Pré-requisitos
